@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Account" max_length="40" name="x_24859_bow_account" type="collection">
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element choice="1" label="Industry" max_length="40" name="industry" type="choice">
+            <choice>
+                <element label="Federal" sequence="0" value="Federal"/>
+                <element label="Finance" sequence="1" value="Finance"/>
+                <element label="Healthcare" sequence="2" value="Healthcare"/>
+                <element label="Pharmaceutical" sequence="3" value="Pharmaceutical"/>
+                <element label="Retail" sequence="4" value="Retail"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Ticker Symbol" max_length="40" name="ticker_symbol" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Competitor" sequence="0" value="Competitor"/>
+                <element label="Customer" sequence="1" value="Customer"/>
+                <element label="Partner" sequence="2" value="Partner"/>
+            </choice>
+        </element>
+        <element label="Website" max_length="1024" name="website" type="url"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

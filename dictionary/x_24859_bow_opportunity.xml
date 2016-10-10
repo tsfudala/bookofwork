@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Opportunity" max_length="40" name="x_24859_bow_opportunity" type="collection">
+        <element label="Amount" max_length="40" name="amount" type="currency"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element label="Expected Close Date" max_length="40" name="expected_close_date" type="glide_date"/>
+        <element label="Name" mandatory="true" max_length="254" name="name" reference="x_24859_bow_account" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element choice="3" default="Prospecting" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element label="Prospecting" sequence="100" value="Prospecting"/>
+                <element label="Qualification" sequence="200" value="Qualification"/>
+                <element label="Proposal" sequence="300" value="Proposal"/>
+                <element label="Closed Won" sequence="400" value="Closed Won"/>
+                <element label="Closed Lost" sequence="500" value="Closed Lost"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Existing Business" value="Existing Business"/>
+                <element label="ServiceNow Professional Services" value="ServiceNow Professional Services"/>
+                <element label="New Business" sequence="200" value="New Business"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

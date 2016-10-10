@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stage" table="x_24859_bow_opportunity" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospecting</label>
+            <language>en</language>
+            <name>x_24859_bow_opportunity</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 17:58:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a97bc430fd62600bdc88fbce1050e0b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 17:59:52</sys_updated_on>
+            <value>Prospecting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Qualification</label>
+            <language>en</language>
+            <name>x_24859_bow_opportunity</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 17:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8c770830fd62600bdc88fbce1050e4a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 17:59:55</sys_updated_on>
+            <value>Qualification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proposal</label>
+            <language>en</language>
+            <name>x_24859_bow_opportunity</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 17:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f734830fd62600bdc88fbce1050ed2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 17:59:59</sys_updated_on>
+            <value>Proposal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Won</label>
+            <language>en</language>
+            <name>x_24859_bow_opportunity</name>
+            <sequence>400</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 18:01:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b2838830fd62600bdc88fbce1050ee5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 18:01:18</sys_updated_on>
+            <value>Closed Won</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Lost</label>
+            <language>en</language>
+            <name>x_24859_bow_opportunity</name>
+            <sequence>500</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 18:01:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6783c830fd62600bdc88fbce1050e7c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 18:01:49</sys_updated_on>
+            <value>Closed Lost</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <name>x_24859_bow_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-10-10 17:58:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4ab7f0430fd62600bdc88fbce1050ebc</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_name>stage</sys_name>
+            <sys_package display_value="Book Of Work" source="x_24859_bow">64a4384f0f962600bdc88fbce1050efe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Book Of Work">64a4384f0f962600bdc88fbce1050efe</sys_scope>
+            <sys_update_name>sys_choice_x_24859_bow_opportunity_stage</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-10-10 18:01:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
