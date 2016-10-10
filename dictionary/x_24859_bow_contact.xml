@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Contact" max_length="40" name="x_24859_bow_contact" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_24859_bow_account" type="reference"/>
+        <element label="Business Phone" max_length="40" name="business_phone" type="phone_number_e164"/>
+        <element label="Cell Phone" max_length="40" name="cell_phone" type="phone_number_e164"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Email" max_length="254" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Home Phone" max_length="40" name="home_phone" type="phone_number_e164"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reports to" max_length="32" name="reports_to" reference="x_24859_bow_contact" type="reference"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="255" name="street" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Zip / Postal Code" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="reports_to"/>
+        </index>
+        <index name="index2">
+            <element name="account"/>
+        </index>
+    </element>
+</database>
