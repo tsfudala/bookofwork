@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-10 18:29:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a7febc0b0fd62600bdc88fbce1050efa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_24859_bow_account</sys_name>

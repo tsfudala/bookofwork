@@ -51,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-10 20:59:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>1cf06d030f5a2600bdc88fbce1050ec1</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>37c4ad1d0fe6e600bdc88fbce1050e58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Zip / Postal Code</sys_name>
         <sys_package display_value="Book Of Work" source="x_24859_bow">64a4384f0f962600bdc88fbce1050efe</sys_package>
@@ -60,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Book Of Work">64a4384f0f962600bdc88fbce1050efe</sys_scope>
         <sys_update_name>sys_dictionary_x_24859_bow_contact_zip</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-10 20:59:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-10-17 21:01:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
